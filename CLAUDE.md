@@ -77,7 +77,7 @@ handoff_trigger ───────── naphtali (event; → kazaori, recomm
 ```
 
 All path-reserved under
-`40-engine/kotoba/crates/kotoba-kotodama/cells/sonae_*/`; import-time
+`kotoba-lang/kotodama-cells/sonae_*/`; import-time
 `RuntimeError` until R1.
 
 ## 6 Lexicons (com.etzhayyim.sonae.*)
