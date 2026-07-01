@@ -66,7 +66,7 @@ wind-broken branch).
 ## 6 Pregel Cells (R0 path-reserved)
 
 All cells path-reserved under
-`40-engine/kotoba/crates/kotoba-kotodama/cells/sonae_*/`.
+`kotoba-lang/kotodama-cells/sonae_*/`.
 Cell modules created at R1 ratification, import-time
 `RuntimeError("sonae R0 scaffold: activate via Council ADR + R1 ratification + open-feed baseline + Sendai self-assessment + ≥1 community drill")`.
 
