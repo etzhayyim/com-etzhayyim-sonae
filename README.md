@@ -90,7 +90,7 @@ Cell modules created at R1 ratification, import-time
 | `drillAttestation` | Drill record (opt-in participants); satisfies kazaori R1 drill activation gate |
 | `sonaeReadinessReview` | Periodic review: forecast accuracy + readiness + Sendai alignment; G9 structural |
 
-See `/00-contracts/lexicons/com/etzhayyim/sonae/README.md`.
+See repository-local canonical `lex/*.edn` and external `wire/*.json`.
 
 ## Constitutional Gates (G1–G12)
 
@@ -124,9 +124,9 @@ issuing authoritative public alerts (relay-only).
 
 ## Related Files
 
-- `/20-actors/sonae/manifest.jsonld`
-- `/20-actors/sonae/CLAUDE.md`
-- `/00-contracts/lexicons/com/etzhayyim/sonae/` (6 Lexicons + README)
+- `manifest.edn`
+- `CLAUDE.md`
+- `lex/` (6 canonical EDN Lexicons)
 - `/90-docs/adr/2606091200-sonae-pre-disaster-foresight-tier-b-actor-r0.md` — Master ADR
 - `/90-docs/adr/2605263200-kazaori-disaster-response-tier-b-actor-r0.md` — downstream response actor (handoff target)
 - `/90-docs/adr/2605192315-etzhayyim-transparent-force-authorization.md` — G5 + N1 separation

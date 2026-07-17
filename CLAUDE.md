@@ -1,4 +1,4 @@
-# 20-actors/sonae — CLAUDE.md
+# com-etzhayyim-sonae — CLAUDE.md
 
 ## Identity
 

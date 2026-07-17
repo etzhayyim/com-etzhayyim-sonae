@@ -3,7 +3,7 @@
 Per ADR-2606091200 (sonae 備え pre-disaster preparedness/early-warning substrate) +
 the G14 verified-source-only discipline. Every
 `com.etzhayyim.sonae.warningSource` record in
-`registry/warning-sources.seed.json` ships `verificationStatus =
+`registry/warning-sources.edn` ships `verificationStatus =
 unverified-seed`. This file documents how an entry is moved through the
 three tiers — the human/Council checks that gate any downstream relay of a
 warning-source entry.
@@ -35,7 +35,7 @@ warning-source entry.
 | `maintainer-verified` | a maintainer has re-checked every field against the official source within the freshness window | warning-source verification maintainer DID | eligibility as an `authoritativeSource` cite in a relayed `earlyWarningRelay` record (R1+) |
 | `council-verified` | Council-reviewed; relay-only + no-declaration boundary independently re-confirmed | Council Lv6+ | inclusion in any cross-actor consumed view (e.g. kazaori `damage_assessment` intake, `preparedness_plan` sourcing) (R2+) |
 
-`freshnessWindowDays` (currently **180**, see `warning-sources.seed.json`)
+`freshnessWindowDays` (currently **180**, see `warning-sources.edn`)
 bounds staleness: an entry whose `lastVerified` is older than the window is
 treated as unverified for relay even if its status is `maintainer-verified`.
 
@@ -105,7 +105,7 @@ consumed view (e.g. kazaori intake, `preparedness_plan` sourcing):
 
 ## Current seed status (2026-07-10)
 
-All 20 seed entries in `warning-sources.seed.json` are `unverified-seed`;
+All 20 seed entries in `warning-sources.edn` are `unverified-seed`;
 **0 verified** (G8 honest). Every entry carries a non-empty `accessUrl` +
 `provenance` (http(s)) + ISO-8601 `lastVerified`, a `sourceKind` in the
 allowed authoritative taxonomy, a `jurisdiction` (spanning 16 distinct

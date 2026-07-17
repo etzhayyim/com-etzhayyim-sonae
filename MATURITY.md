@@ -19,7 +19,7 @@ honest framing (G8): できていないことは「未」と明記する。
 - coverage: fail-closed invariants test **計20件緑** — 憲法ゲート 10件
   (`test_sonae_lexicon_invariants.py`)+ warning-source registry 10件
   (`test_sonae_warning_sources_seed.py`)。
-- data asset: `registry/warning-sources.seed.json` — 権威ある警報発信元の
+- data asset: `registry/warning-sources.edn` — 権威ある警報発信元の
   allowlist **20件 / 16 jurisdictions**(G8 relay 元)。
 - 未: cell solver(R1 で実装、現状 path-reserved のみ) · 実 feed 連携(R1) ·
   Sendai 自己評価 / 訓練 / Council 承認(R1 起動ゲート) · registry VERIFICATION.md
@@ -44,7 +44,7 @@ honest framing (G8): できていないことは「未」と明記する。
   test-only・network-free・cell 非実行で **R0 ceiling 不変**。
 
 - 2026-06-09 warning-source registry seed: G8(relay-only)を支える「権威ある警報
-  発信元の allowlist」`registry/warning-sources.seed.json`(**20 source / 16
+  発信元の allowlist」`registry/warning-sources.edn`(**20 source / 16
   jurisdictions**)を新設 — PHIVOLCS / PAGASA / JMA / PTWC / NOAA-NWS / USGS /
   BMKG / GDACS / Copernicus EMS / IMD / GeoNet+NEMA / BOM+JATWC / SHOA / SASMEX /
   AFAD / INGV / CWA / IOC-ITIC / NOA / INCOIS。全件 `isAuthoritativeIssuer=true` +

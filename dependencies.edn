@@ -1,0 +1,16 @@
+{:dependencies
+ [{:dependency/id etzhayyim/root
+   :dependency/repository "https://github.com/etzhayyim/root"
+   :dependency/revision "d8e79b2d2b95190b4c520e4640ffc293726ce222"
+   :dependency/paths ["90-docs/adr"]
+   :dependency/purpose #{:adr :governance}}
+  {:dependency/id com.etzhayyim/chigiri :dependency/revision "e08560129675106e0bb4b70e23769ff07a711ce7"}
+  {:dependency/id com.etzhayyim/hagukumi :dependency/revision "7d34cb0660057005643f95fd9c298aeb1ff0ac82"}
+  {:dependency/id com.etzhayyim/hikari :dependency/revision "0a2a0ec962eb1cb72914a9f0aef9701e8948d556"}
+  {:dependency/id com.etzhayyim/kawaraban :dependency/revision "85cd47ae00e5f30077f51282748db9aa6f6c53a1"}
+  {:dependency/id com.etzhayyim/kazaori :dependency/revision "08750097c50f1b37380d7ceaf9f63b94baeb6c54"}
+  {:dependency/id com.etzhayyim/mitsuho :dependency/revision "8ce9513470ef1df97568fd575a34c852baa755cd"}
+  {:dependency/id com.etzhayyim/mizuho :dependency/revision "3e4ba475ab1fab5af7edee5025e2ae17c0cab98c"}
+  {:dependency/id com.etzhayyim/tatekata :dependency/revision "fcfc6752d68b6feb5fe397203ae57ed623c35cbb"}
+  {:dependency/id com.etzhayyim/toritate :dependency/revision "3354850aa05408e840426f91fe067ddad8535e5b"}
+  {:dependency/id com.etzhayyim/watatsuna :dependency/revision "3c8c3713d85c4759929002ad1dae22c2c2e79659"}]}
